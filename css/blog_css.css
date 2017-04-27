@@ -49,7 +49,7 @@ font-family:  sans-serif,serif;
 
 
 .hero{
-    background: url('..//html_css.jpg');
+    background: url('html_css.jpg');
     height: 350px;
     background-repeat: no-repeat;
    background-position: center;
