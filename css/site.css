@@ -1,0 +1,114 @@
+body{
+    background-color: #4580de;
+    font-size: 120%;
+}
+
+a{
+    color: #333;
+}
+
+a:hover{
+    color: #0062ff;
+}
+
+aside a{
+    padding: 10px 0;
+    display: block;
+}
+
+aside ul{
+    list-style: none;
+    margin-left: 50px;
+    padding: 0;
+    margin-top: -15px;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    
+}
+
+.brand{
+font-family: 'Dancing Script', cursive, sans-serif,serif;
+    font-size: 170%;
+    padding: 40px;
+    font-weight: bolder;
+    color: #666;
+}
+
+.brand span{
+    font-family:  sans-serif,serif;
+    font-size: 80%;
+    padding: 20px;
+     font-weight: normal;
+}
+
+
+.hero{
+    background: url('..//jumbotron.jpg');
+    height: 350px;
+    background-repeat: no-repeat;
+   background-position: center;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 70%;
+    clear: both;
+    display: block;
+}
+
+content{
+    overflow: hidden;
+    display: block;
+    padding: 50px;
+}
+
+main{
+    float: left;
+    width: 70%
+}
+
+aside{
+    float: right;
+    width: 30%
+}
+
+aside .section{
+    background-color: bisque;
+    padding: 0px;
+    box-sizing: border-box;
+}
+aside .section h3{
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0;
+}
+
+article{
+   margin-bottom: 0px;
+}
+article h2{
+     margin-bottom: 0;
+    font-size: 180%;
+    color: #333;
+    padding: 0;
+}
+
+article p{
+     margin-top: 10px;
+    font-size: 100%;
+    color: #333;
+    padding: 0;
+}
+
+article span{}
