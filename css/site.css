@@ -3,11 +3,11 @@ body{
     font-size: 120%;
 }
 
-a{
+aside a{
     color: #333;
 }
 
-a:hover{
+aside a:hover{
     color: #0062ff;
 }
 
