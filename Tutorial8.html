@@ -7,8 +7,15 @@
          <script>
         $(document).ready(function () {
             
-             $('iframe').contents().find("div[comp='.logo']").remove();
-            $('iframe').contents().find("div[comp='.sidedock']").remove();
+             $('iframe').contents().find(".logo']").each(function (index, element) {
+        $(this).remove();
+        console.log("removed one linkUp");
+    });
+            $('iframe').contents().find(".sidedock']").each(function (index, element) {
+        $(this).remove();
+        console.log("removed one linkUp");
+    });
+            
         });
         </script>
     </head>
