@@ -7,13 +7,8 @@
          <script>
         $(document).ready(function () {
             
-             $(".logo").on("load", function(){
-                $(".logo").remove();
-             });
-            
-            $(".sidedock").on("load", function(){
-                $(".sidedock").remove();
-            });
+             $('iframe').contents().find("div[comp='.logo']").remove();
+            $('iframe').contents().find("div[comp='.sidedock']").remove();
         });
         </script>
     </head>
